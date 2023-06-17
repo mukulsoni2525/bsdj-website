@@ -1,0 +1,81 @@
+.topbar{
+ display: flex;
+ background-color: white;
+ height: 150px;
+}
+.logoImg{
+    flex: 1;
+    height: 150px;
+    padding-left: 15px;
+}
+.college{
+    flex: 4;
+}
+.collegeName{
+    font-size: 3.5vmin;
+    font-weight: bold;
+    color: rgb(5, 5, 67);
+   }
+.collegeAddress{
+    font-size:2.5vmin;
+    color: rgb(13, 13, 143);
+    padding-top:0 ;
+}
+h4{
+    margin : 0 !important;
+}
+.btn_btn-warning{
+background-color: rgba(255, 196, 0, 0.9);
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 5px;
+border-radius: 5px;
+width: 180px;
+height: 40px;
+}
+.admissionButton{
+    flex: 3;
+    padding-top: 35px;
+    margin-left: 100px;
+    padding-left: 100px;
+}
+.socialMedia{
+    flex:4 ;
+    padding-top: 35px;
+}
+.facebook{
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #3b5998;
+}
+.instagram{
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(228, 64, 95);
+}
+.twitter{
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #00acee ;
+}
+.linkedin{
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #0A66C2;
+}
+.youtube{
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ee2d2d;
+}
