@@ -1,11 +1,10 @@
 .topbar{
  display: flex;
  background-color: white;
- height: 150px;
 }
 .logoImg{
     flex: 1;
-    height: 150px;
+    height: 120px;
     padding-left: 15px;
 }
 .college{
