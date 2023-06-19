@@ -1,3 +1,10 @@
+.arrow-up{
+    margin-bottom: 0px;
+    border-radius: 0px;
+    -ms-transform: skewX(15deg);
+    -webkit-transform: skewX(15deg);
+    transform: skewX(15deg);
+}
 .navbar{
     display: flex;
     color: white;
@@ -14,7 +21,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    -ms-transform: skewX(-14deg);
+    -webkit-transform: skewX(-14deg);
+    transform: skewX(-14deg);
 }
 .btn {
     background-color: #F45060;
