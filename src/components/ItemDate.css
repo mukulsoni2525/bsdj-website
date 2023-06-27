@@ -1,0 +1,10 @@
+.date span {
+    padding: 3px;
+}
+
+.date {
+    text-align: center;
+    background-color: aquamarine;
+    margin-bottom: 1rem;
+    
+}

@@ -1,0 +1,27 @@
+.copyright {
+position: absolute;
+    bottom: 0px;    
+    width: 1440px;
+    height: 89px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.copyrightContent {
+    position: absolute;
+    width: 1495px;
+    height: 34px;
+    left: -33px;
+    bottom: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #212121;
+}

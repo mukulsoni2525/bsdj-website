@@ -1,0 +1,400 @@
+.footer {
+    width: 100vw;
+        height: 50vh;
+        position: relative;
+    
+        background: #1E4F5D;
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+
+.footer .footer_form img {
+    
+    
+        position: absolute;
+            width: 9%;
+            height: 20%;
+            left: 5%;
+            top: 4%;
+        
+            
+            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            border-radius: 553.5px;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 50%;
+}
+
+
+.footer .formNews {
+    position: relative;
+        width: 80%;
+        height: auto;
+        left: 15%;
+        top: -7.8rem;
+    
+        background: #F2AD11;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+}
+
+.footer .newsLetter{
+    position: relative;
+        width: 90%;
+        height: 11rem;
+        /* left: calc(50% - 1170px/2 + 0.5px); */
+        top: 5%; 
+}
+
+.footer .newsLetterContent {
+    position: absolute;
+    width: 40%;
+        height: 100%;
+        left: 5%;
+        
+        top: 0px;
+}
+
+.footer .newsLetterHeading {
+    position: absolute;
+        
+        left: 5%;
+        top: 20%;
+    
+        font-family: 'Oxygen';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5rem;
+        /* line-height: 50px; */
+        /* or 208% */
+    
+        display: flex;
+        align-items: center;
+    
+        color: #FFFFFF;
+}
+
+.footer .newsLetterAbout {
+    position: absolute;
+        
+        left: 5%;
+        top: 50%;
+        color: #FFFFFF;
+}
+
+.footer .formNewsLetter {
+    position: absolute;
+        width: 60%;
+        height: 7rem;
+        right: 5%;
+        top: 20%;
+}
+
+.footer .inputForm1 {
+    position: absolute;
+        height: 32%;
+        left: 2%;
+        width: 42%;
+        top: 5%;
+    
+        background: #FFFFFF;
+        border-radius: 0.8rem;
+}
+
+.footer .inputForm2 {
+    position: absolute;
+        height: 32%;
+        width: 42%;
+        top: 5%;
+        right: 12%;
+        background: #FFFFFF;
+        border-radius: 0.8rem;
+}
+
+.footer .inputForm3 {
+    position: absolute;
+        height: 32%;
+        left: 2%;
+        width: 70%;
+        top: 48%;
+    
+        background: #FFFFFF;
+        border-radius: 0.8rem;
+}
+
+.footer .inputForm4 {
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        /* padding: 0.8rem 4.2rem 0.8rem 4.2rem; */
+        isolation: isolate;
+    
+        position: absolute;
+        width: 30%;
+        height: 32%;
+        right: -1.2rem;
+        top: 48%;
+    
+        background: #61CE70;
+        border-radius: 2.8rem;
+}
+
+.footer .footer_main {
+    position: absolute;
+        width: 95%;
+        height: 70%;
+        left: 2%;
+        top: 25%;
+}
+
+.footer .left_side {
+    position: absolute;
+        height: 90%;
+        width: 30%;
+        left: 0px;
+        /* right: 1015px; */
+        top: 2%;
+}
+
+.footer .envolope {
+    padding-right: 1rem;
+}
+
+.footer .phone {
+    padding-right: 1rem;
+}
+
+.footer .facebook {
+    position: absolute;
+        
+        left: 2%;
+        bottom: 20%;
+        color: #FFFFFF;
+        font-size: 2rem;
+        border-radius: 1.2rem;
+}
+.footer .twitter {
+    position: absolute;
+        
+        left: 15%;
+        bottom: 20%;
+        color: #FFFFFF;
+        font-size: 2rem;
+        border-radius: 1.2rem;
+}
+.footer .youtube {
+    position: absolute;
+        
+        left: 28%;
+        bottom: 20%;
+        color: #FFFFFF;
+            font-size: 2rem;
+        
+        border-radius: 1.2rem;
+
+}
+ .footer .instagram {
+position: absolute;
+    
+    left: 41%;
+    bottom: 20%;
+    color: #FFFFFF;
+        font-size: 2rem;
+    
+    border-radius: 1.2rem;
+}
+
+
+
+.footer .left_side h5 {
+    position: absolute;
+        /* width: 423px;
+        height: 58px; */
+        left: 2%;
+        top: 5%;
+        width: 100%;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.4rem;
+        letter-spacing: 0.03em;
+    
+        color: #FFFFFF;
+    
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.footer .left_side .email {
+    color: white;
+    position: absolute;
+        width: 90%;
+        /* height: 25px; */
+        left: 2%;
+        top: 28%;
+}
+
+.footer .left_side .number {
+    color: white;
+    position: absolute;
+        width: 90%;
+        /* height: 25px; */
+        left: 2%;
+        top: 44%;
+}
+
+.footer .right_side {
+    position: absolute;
+    width: 68%;
+        height: 90%;
+        /* left: 342px; */
+        right: 2%;
+        top: 2%;
+        
+}
+
+ .footer .linksText {
+    position: absolute;
+        /* width: 108.37px;
+        height: 26px; */
+        left: 6%;
+        
+        top: 0rem;
+    
+        font-family: 'Oxygen';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.4rem;
+        /* line-height: 1.5rem; */
+        /* or 100% */
+    
+        display: flex;
+        align-items: center;
+    
+        color: #FFE000;
+    
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer .quickLinks {
+    position: absolute;
+        width: 65%;
+        height: 80%;
+        left: 16%;
+        top: 5%;
+
+        font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            
+            /* or 187% */
+        
+            display: flex;
+            align-items: center;
+        
+            color: #FFFFFF;
+
+            list-style-type: none;
+}
+
+.footer .quickLinks ul {
+    margin: 0.7rem;
+}
+
+.footer .links1 {
+    position: absolute;
+        width: 45%;
+        height: 90%;
+        left: 0%;
+        top: 14%;
+}
+
+.footer .links2 {
+    position: absolute;
+        width: 45%;
+        height: 90%;
+        right: 10%;
+        top: 14%;
+}
+
+
+.footer .importantLinks {
+    width: 30%;
+    top: 5%;
+    position: absolute;
+    right: 2%;
+}
+
+.footer .importantLinks ul {
+    margin: 1rem;
+}
+
+.footer .impLinks {
+    position: absolute;
+        /* width: 259px;
+        height: 33px; */
+        left: 26%;
+        top: 0rem;
+    
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+        text-align: center;
+    
+        color: #FFE500;
+    
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer .webLinks {
+    list-style-type: none;
+    position: absolute;
+        width: 100%;
+        height: 90%;
+        left: 10%;
+        top: 1.5rem;
+    
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 1.2rem;
+    
+        color: #FFFFFF;
+}
+
+.footer .copyright {
+    position: absolute;
+        width: 100vw;
+        height: 10%;
+        left: 0px;
+        bottom: 0px;
+        align-items: center;
+        justify-content: center;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.footer .copyrightContent {
+    
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2rem;
+        
+        text-align: center;
+    
+        color: #212121;
+}
